@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
 
-alias agi='apt-get -qq -y install'
+function agi {
+    apt-get -qq -y install "$@"
+}
 
 agi vim
 agi git
