@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
 
-apt-get install vim
-apt-get install git
+apt-get install vim git sudo
 apt-get install firmware-realtek
 apt-get install nvidia-cuda-dev
 apt-get install gcc-4.4 g++-4.4
