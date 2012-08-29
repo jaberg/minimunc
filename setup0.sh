@@ -19,4 +19,4 @@ apt-get install firmware-realtek
 
 apt-get install nvidia-cuda-dev
 
-
+apt-get install 
