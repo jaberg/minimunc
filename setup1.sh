@@ -5,7 +5,7 @@ function agi {
     apt-get -qq -y install "$@"
 }
 
-agi vim git sudo
+agi vim git
 agi firmware-realtek
 agi nvidia-cuda-dev
 agi gcc-4.4 g++-4.4
