@@ -17,3 +17,5 @@ agi python-pip
 agi python-virtualenv
 agi gfortran
 agi libfreetype6 libfreetype6-dev
+
+apt-get -qq -y autoremove
