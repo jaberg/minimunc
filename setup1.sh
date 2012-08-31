@@ -15,3 +15,4 @@ agi mongodb
 agi python2.7-dev
 agi python-pip
 agi python-virtualenv
+agi gfortran
