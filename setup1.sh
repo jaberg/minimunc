@@ -7,7 +7,7 @@ function agi {
 
 agi vim git
 agi firmware-realtek
-agi nvidia-cuda-dev
+agi nvidia-cuda-dev nvidia-cuda-toolkit
 agi gcc-4.4 g++-4.4
 agi libopenblas-base libopenblas-dev liblapack3 liblapack-dev
 agi libjpeg62 libjpeg62-dev
@@ -19,3 +19,4 @@ agi gfortran
 agi libfreetype6 libfreetype6-dev
 
 apt-get -qq -y autoremove
+apt-get -qq -y autoclean
