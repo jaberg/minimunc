@@ -18,6 +18,7 @@ agi python-pip
 agi python-virtualenv
 agi gfortran
 agi libfreetype6 libfreetype6-dev
+agi screen
 
 apt-get -qq -y autoremove
 apt-get -qq -y autoclean
