@@ -13,6 +13,7 @@ agi gcc-4.4 g++-4.4
 agi libopenblas-base libopenblas-dev liblapack3 liblapack-dev
 #agi libjpeg62 libjpeg62-dev
 agi  libjpeg8 libjpeg8-dev
+agi libpng12-0 libpng-dev
 agi mongodb
 agi python2.7-dev
 agi python-pip
