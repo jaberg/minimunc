@@ -11,3 +11,6 @@ apt-get dist-upgrade
 
 . setup1.sh
 
+update-rc.d mongodb remove
+rm -Rf /var/lib/mongodb
+

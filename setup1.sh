@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+apt-get update
 
 function agi {
     apt-get -qq -y install "$@"
