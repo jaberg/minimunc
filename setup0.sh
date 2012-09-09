@@ -16,8 +16,8 @@ rm -Rf /var/lib/mongodb
 
 F=/etc/default/nvidia-kernel
 echo "# How many nVidia cards are in the system?" > $F
-echo "# NVIDIA_CARDS= " >> $F
-echo "# -- HACK to override crappy /etc/init.d/nvidia-kernel" >> $F
-echo "nvidia-smi" >> $F
+echo "NVIDIA_CARDS=4" >> $F
+echo "# -- HACK to initialize" >> $F
+echo "# nvidia-smi" >> $F
 
 
