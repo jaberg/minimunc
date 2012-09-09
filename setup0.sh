@@ -3,7 +3,7 @@
 set -e
 
 # -- replace all instances of squeeze with unstable
-mv ./sources.list /etc/apt/sources.list
+cp ./sources.list /etc/apt/sources.list
 
 # -- upgrade to unstable
 apt-get update
