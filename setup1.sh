@@ -14,7 +14,7 @@ agi libopenblas-base libopenblas-dev liblapack3 liblapack-dev
 #agi libjpeg62 libjpeg62-dev
 agi  libjpeg8 libjpeg8-dev
 agi libpng12-0 libpng-dev
-agi mongodb-10gen
+agi mongo
 agi python2.7-dev
 agi python-pip
 agi python-virtualenv
