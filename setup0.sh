@@ -2,6 +2,8 @@
 
 set -e
 
+apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+
 # -- replace all instances of squeeze with unstable
 cp ./sources.list /etc/apt/sources.list
 
